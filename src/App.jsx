@@ -1,6 +1,7 @@
 import './styles/App.css'
 import Card from './components/Card'
 import characters from './data/characters'
+import ReactLogo from './components/react-logo'
 
 function App() {
   const characterList = characters.map(v => {
@@ -13,8 +14,9 @@ function App() {
         <div className="container">
           {characterList}
         </div>
+
+        <ReactLogo/>
       </div>
-      
   )
 }
 
